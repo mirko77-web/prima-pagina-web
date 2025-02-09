@@ -6,230 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>la mia pagina web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-    <header class="header">
-        <div id="box" class="box">
-            <div id="center" class="center">
-                <div id="logo" class="logo">
-                    <svg class="logo_img" width="30px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">
-                                <stop stop-color="#3ABAB4" offset="0%"></stop>
-                                <stop stop-color="#7F9CF5" offset="100%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">
-                                <stop stop-color="#3ABAB4" offset="0%"></stop>
-                                <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                            </linearGradient>
-                        </defs>
-                        <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)">
-                        </path>
-                        <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)">
-                        </path>
-                    </svg>
-                </div>
-                <nav class="navbar">
-                    <ul id="menu">
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">testimonials</a></li>
-                        <li><a href="#">resources</a></li>
-                    </ul>
 
-                    <svg class="luce" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
-                        <g class="luce" fill-rule="nonzero" opacity=".88">
-                            <path
-                                d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z">
-                            </path>
-                            <circle cx="32" cy="12" r="3"></circle>
-                            <circle fill-opacity=".4" cx="12" cy="12" r="6"></circle>
-                            <circle fill-opacity=".88" cx="12" cy="12" r="3"></circle>
-                        </g>
-                    </svg>
-                    </label>
-                    <input type="button" value="request code">
-                </nav>
-            </div>
+
+    <header>
+        <div class="navbar w-72">
+
+            <a href="#logo"><svg class="logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">
+                            <stop stop-color="#3ABAB4" offset="0%"></stop>
+                            <stop stop-color="#7F9CF5" offset="100%"></stop>
+                        </linearGradient>
+                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">
+                            <stop stop-color="#3ABAB4" offset="0%"></stop>
+                            <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)"></path>
+                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)"></path>
+                </svg></a>
+            <a href="#home">Home</a>
+            <a href="#about">Chi siamo</a>
+            <a href="#services">Servizi</a>
+            <a href="#contact">Contatti</a>
+            <a href="#" class="request">request code</a>
+
         </div>
+
     </header>
-    <main>
 
-        <div class="blocco">
-            <div class="blocco_testo">
-                <h1>Your website, reimagined</h1>
-                <p>Our landing page template works on all devices, so you only have to set it up once, and get beautiful
-                    results forever.</p>
+    <section class="hero w-72">
+        <div class="w-70">
+            <h1 class="title">Your website, reimagined</h1>
+            <p>Our landing page template works on all devices, so you only have</b>to set it up once, and get beautiful
+                results forever.
+            </p>
+            <div class="numberphone">
+                <input type="tel" class="numberphone" placeholder="Phone number" aria-label="Phone number">
+                <a class="code2" href="#0">Request code</a>
             </div>
-            <div class="sfondo">
-                <div class="sfondo1">
-
-                    <svg class="effetto" aria-hidden="true" width="678" height="634" viewBox="0 0 678 634" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="240" cy="394" r="240" fill="url(#piphoneill_paint0_radial)" fill-opacity=".4">
-                        </circle>
-                        <circle cx="438" cy="240" r="240" fill="url(#piphoneill_paint1_radial)" fill-opacity=".6">
-                        </circle>
-                        <defs>
-                            <radialGradient id="piphoneill_paint0_radial" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -77 317) scale(189.054)">
-                                <stop stop-color="#667EEA"></stop>
-                                <stop offset="1" stop-color="#667EEA" stop-opacity=".01"></stop>
-                            </radialGradient>
-                            <radialGradient id="piphoneill_paint1_radial" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 99 339) scale(189.054)">
-                                <stop stop-color="#9F7AEA"></stop>
-                                <stop offset="1" stop-color="#9F7AEA" stop-opacity=".01"></stop>
-                            </radialGradient>
-                        </defs>
-                    </svg>
-                    <img class="img1" src="./images/mockup-image-01.jpg" width="290" height="624"
-                        style="max-width: 84.33%;" alt="Features illustration">
-                    <img class="imgphone" src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup"
-                        aria-hidden="true">
-                    <a class="play" @click.prevent="modalExpanded = true" href="#0" aria-controls="modal">
-                        <img src="./images/play-button.svg" width="96" height="96" alt="Play">
-                    </a>
-                </div>
-
-            </div>
-
+            <ul>
+                <li>
+                    <svg class="spunta" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" Lorem ipsum is
+                        placeholder text commonly>
+                        <path
+                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
+                        </path>
+                    </svg> <span>Lorem ipsum is placeholder text commonly</span>
+                </li>
+                <li>
+                    <svg class="spunta1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
+                        </path>
+                    </svg> <samp>Excepteur sint occaecat cupidatat.</samp>
+                </li>
+                <li>
+                    <svg class="spunta2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z">
+                        </path>
+                    </svg><span>Lorem ipsum is placeholder text commonly.</span>
+                </li>
+            </ul>
         </div>
-        <div>
-            <img src="https://preview.cruip.com/appy/images/mockup-image-01.jpg" alt="immagine uomo">
-            <img src="https://preview.cruip.com/appy/images/iphone-mockup.png" alt="immagine cellulare">
-            <img src="https://preview.cruip.com/appy/images/play-button.svg" alt="play-button">
+        <div class="w-30"> <img class="img1" src="https://preview.cruip.com/appy/images/mockup-image-01.jpg" a
+                alt="imgsong">
+            <img class="phone" src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="344" height="674"
+                alt="iPhone mockup">
         </div>
-        <div><input type="tel" class="Phone number" placeholder="Phone number" aria-label="Phone number"
-                _mstplaceholder="181909" _mstaria-label="181909">
+    </section>
+
+
+    <div class="fourq">
+        <!-- 1st item -->
+        <div class="1q">
+            <div>2.4M</div>
+            <div class="text-1q">Days turn around</div>
         </div>
-        <div>
-            <input type="button" value="request code">
+        <!-- 2nd item -->
+        <div class="2q">
+            <div>7M</div>
+            <div class="text-2q">Days turn around</div>
         </div>
-        <ul>
-            <li>
-                <svg class="visa" width="12px" hidden="20px" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                </svg> Lorem ipsum is placeholder text commonly.
-            </li>
-            <li>
-                <svg class="visa" width="12px" hidden="20px" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                </svg>Excepteur sint occaecat cupidatat
-            </li>
-            <li>
-                <svg class="visa" width="12px" hidden="20px" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                </svg>Lorem ipsum is placeholder text commonly.
-            </li>
-        </ul>
+        <!-- 3rd item -->
+        <div class="3q">
+            <div>7.4%</div>
+            <div class="text-3q">Days turn around</div>
         </div>
-        <div class="card-container">
-            <div class="card">
-                <h3>2.4M</h3>
-                <p>days turn around</p>
-            </div>
-            <div class="card">
-                <h3>7M</h3>
-                <p>days turn around</p>
-            </div>
-            <div class="card">
-                <h3>7.4%</h3>
-                <p>days turn around</p>
-            </div>
-            <div class="card">
-                <h3>49K</h3>
-                <p>days turn around</p>
-            </div>
+        <!-- 4th item -->
+        <div class="4q">
+            <div>49K</div>
+            <div class="text-4q">Days turn around</div>
         </div>
+    </div>
 
-        <h2> From rough design files, to powerful products</h2>
-        <h3> Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat
-            nulla pariatur excepteur sint occaecat cupidatat.</h3>
-        <div>
-            <img src="https://preview.cruip.com/appy/images/carousel-item-02.jpg" width="40%" height="40%"
-                alt="immagine 1"> <button class="button">learn more</button>
-            <img src="https://preview.cruip.com/appy/images/carousel-item-01.jpg" width="40%" height="40%"
-                alt="immagine 2"><button class="button">learn more</button>
-            <img src="https://preview.cruip.com/appy/images/carousel-item-05.jpg" width="40%" height="40%"
-                alt="immagine 3"><button class="button">learn more</button>
-            <img src="https://preview.cruip.com/appy/images/carousel-item-04.jpg" width="40%" height="40%"
-                alt="immagine 4"><button class="button">learn more</button>
-            <img src="https://preview.cruip.com/appy/images/carousel-item-03.jpg" width="40%" height="40%"
-                alt="immagine 5"><button class="button">learn more</button>
-        </div>
-        <button class="button">→</button>
+    <div class="titlew">
+        <h2 class="sottotitolo">From rough design files, to powerful products</h2>
+        <p class="p2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur excepteur sint occaecat cupidatat.</p>
+    </div>
 
-        <div>
-            <h2>Turn your ideas into reality in seconds</h2>
-            <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                excepteur sint occaecat cupidatat.</h4>
-        </div>
-        <ul>
-            <li>getting started </li>
-            <li>collection list</li>
-            <li>element hierarchy</li>
-            <li>styling basics</li>
-            <li>image field</li>
-        </ul>
-        <div class="card-container">
-            <a class="card" href="#0">
-                <img src="./images/play-button.svg" width="72" height="72" alt="Play icon" .>
-                <img src=https://preview.cruip.com/appy/images/video-thumb.jpg width="40%" height="40%" alt="Play icon">
+    <div class="img12345">
+        <img src="https://preview.cruip.com/appy/images/carousel-item-02.jpg" alt="img" width="540" height="460">
+        <img src="https://preview.cruip.com/appy/images/carousel-item-01.jpg" alt="" width="540" height="460">
+        <img src="https://preview.cruip.com/appy/images/carousel-item-04.jpg" alt="" width="540" height="460">
+        <img src="https://preview.cruip.com/appy/images/carousel-item-05.jpg" alt="" width="540" height="460">
+        <img src="https://preview.cruip.com/appy/images/carousel-item-03.jpg" alt="" width="540" height="460">
+    </div>
+    <div class="titleseconds">
+        <h2 class="titleseconds">Turn your ideas into reality in seconds</h2>
+        <p class="titleseconds2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+    </div>
+
+    <button class="endlist" :class="endlist">
+        <svg class="endlist" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path class="endlist" :class="endlist" d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"></path>
+        </svg>
+        <span :class="endlist'" class="endlist">getting started</span>
+    </button>
+    <button class="endlist" :class="endlist">
+        <svg class="endlist" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path class="endlist" :class="endlist" d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"></path>
+        </svg>
+        <span :class="endlist'" class="endlist">Collection list</span>
+    </button>
+    <button class="endlist" class="endlist">
+        <svg class="endlist" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path class="endlist" :class="endlist"
+                d="M6 0H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1V1a1 1 0 00-1-1zM5 5H2V2h3v3zM15 9h-5a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5h-3v-3h3v3zM6 9H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5H2v-3h3v3zM12.5 7a1 1 0 01-.707-.293l-2.5-2.5a1 1 0 010-1.414l2.5-2.5a1 1 0 011.414 0l2.5 2.5a1 1 0 010 1.414l-2.5 2.5A1 1 0 0112.5 7z">
+            </path>
+        </svg>
+        <span :class="endlist'" class="endlist">Element Hierarchy</span>
+    </button>
+    <button class="endlist" class="endlist">
+        <svg class="endlist" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path class="endlist" :class="endlist"
+                d="M15.4.6c-.84-.8-2.16-.8-3 0L8.7 4.3c.73.252 1.388.68 1.916 1.244.469.515.83 1.119 1.065 1.775L15.4 3.6c.8-.84.8-2.16 0-3zM4.937 6.9c-1.2 1.2-1.4 5.7-1.4 5.7s4.4-.4 5.6-1.5a2.987 2.987 0 000-4.2 2.9 2.9 0 00-4.2 0z">
+            </path>
+        </svg>
+        <span :class="endlist" class="endlist">Styling Basics</span>
+    </button>
+    <button class="endlist" :class="endlist">
+        <svg class="endlist" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path class="endlist" :class="endlist" d="M11 16v-5h5V0H5v5H0v11h11zM2 7h7v7H2V7z"></path>
+        </svg>
+        <span class="endlist" class="endlist">Image Field
+        </span>
+    </button>
+    </div>
+    <div class="videoimg">
+        <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" width="200px" height="200px" alt="play1">
+        <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" width="200px" height="200px" alt="play1">
+        <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" width="200px" height="200px" alt="play1">
+        <img src="https://preview.cruip.com/appy/images/video-thumb.jpg" width="200px" height="200px" alt="play1">
+    </div>
+    <div class="titlec1">
+        <h2 class="tiltlec2">Build and style every element to perfection</h2>
+        <p1 class="titlec3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur excepteur sint occaecat cupidatat.</p1>
+    </div>
+
+    
 
 
-
-            </a>
-            <a class="card" href="#0">
-                <img src="./images/play-button.svg" width="72" height="72" alt="Play icon" .>
-                <img src=https://preview.cruip.com/appy/images/video-thumb.jpg width="40%" height="40%" alt="Play icon">
-
-            </a>
-            <a class="card" href="#0">
-                <img src="./images/play-button.svg" width="72" height="72" alt="Play icon" .>
-                <img src=https://preview.cruip.com/appy/images/video-thumb.jpg width="40%" height="40%" alt="Play icon">
-            </a>
-            <a class="card" href="#0">
-                <img src="./images/play-button.svg" width="72" height="72" alt="Play icon" .>
-                <img src=https://preview.cruip.com/appy/images/video-thumb.jpg width="40%" height="40%" alt="Play icon">
-            </a>
-
-        </div>
-        <h2>Build and style every element to perfection</h2>
-        <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-            excepteur sint occaecat cupidatat.</h4>
-
-        <div class="svg" circle>
-            <svg width="100" height="100">
-                <circle cx="50" cy="50" r="30" stroke="white" stroke-width="3" fill="lightblue" />
-                <text x="50" y="55" font-size="30" text-anchor="middle" fill="white">1</text>
-            </svg>
-            <svg width="100" height="100">
-                <circle cx="50" cy="50" r="30" stroke="white" stroke-width="3" fill="lightblue" />
-                <text x="50" y="55" font-size="30" text-anchor="middle" fill="white">2</text>
-            </svg>
-            <svg width="100" height="100">
-                <circle cx="50" cy="50" r="30" stroke="white" stroke-width="3" fill="lightblue" />
-                <text x="50" y="55" font-size="30" text-anchor="middle" fill="white">3</text>
-            </svg>
-            <img src="https://preview.cruip.com/appy/images/mockup-image-02.jpg" width="20%" height="20%" alt="image">
-            <img src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="25%" height="25%"
-                alt="image telephone">
-
-            <img src="https://preview.cruip.com/appy/images/mockup-image-03.jpg" width="20%" height="20%" alt="image">
-            <img src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="25%" height="25%"
-                alt="image telephone">
-
-            <img src="https://preview.cruip.com/appy/images/mockup-image-04.jpg" width="20%" height="20%" alt="image">
-            <img src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="25%" height="25%"
-                alt="image telephone">
-
-        </div>
-
-        </div>
-
-    </main>
-
+    <div class="w-z"> <img class="imgE" src="https://preview.cruip.com/appy/images/mockup-image-02.jpg" a alt="imgsong">
+        <img class="phonez" src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="344" height="674"
+            alt="iPhone mockup">
+    </div>
+    <div class="w-z"> <img class="imgE" src="https://preview.cruip.com/appy/images/mockup-image-03.jpg" a alt="imgsong">
+        <img class="phonez" src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="344" height="674"
+            alt="iPhone mockup">
+    </div>
+    <div class="w-z"> <img class="imgE" src="https://preview.cruip.com/appy/images/mockup-image-04.jpg" a alt="imgsong">
+        <img class="phonez" src="https://preview.cruip.com/appy/images/iphone-mockup.png" width="344" height="674"
+            alt="iPhone mockup">
+    </div>
+    
+   
 
 </body>
-
-</html>
